@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #C1B5AD;
+  }
+
+  #map {
+    height: 100vh;
+    width: 70vw;
+  }
+
+
+
+  #page-container {
+      display: flex;
+  }
+
+  #side-bar {
+      display: flex;
+      flex-direction: column;
+      padding: 1vw;
+  }
+
+#trip-planner {
+    border: 2px solid black;
+    text-align: center;
+    background-color: #39A2AE;
+}
+
+.btn{
+    background-color: #561F37;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+    box-shadow: 2px 2px 2px 2px grey
+}
+
+.drop-down {
+    width: 20vw;
+}
+
+#selectors {
+    background-color: #888073;
+    width: 30vw;
+    flex-grow: 1;
+    height: 50vh;
+}
+
+#itinerary {
+    background-color: #55DBCB;
+    flex-grow: 1;
+    height: 50vh;
+
+
+    
+}
